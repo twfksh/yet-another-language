@@ -1,5 +1,6 @@
-#ifndef memory_h
-#define memory_h
+
+#ifndef MEMORY_H
+#define MEMORY_H
 
 #include "common.h"
 
@@ -15,4 +16,4 @@
 
 void* reallocate(void* pointer, size_t oldSize, size_t newSize);
 
-#endif
+#endif // MEMORY_H
