@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.25)
 project(yal C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 17)
 
 include_directories(.)
 
@@ -14,4 +14,4 @@ add_executable(yal
         main.c
         memory.c
         memory.h
-        value.h value.c)
+        value.h value.c vm.h vm.c)
