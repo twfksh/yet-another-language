@@ -14,4 +14,7 @@ add_executable(yal
         main.c
         memory.c
         memory.h
-        value.h value.c vm.h vm.c)
+        value.h 
+        value.c 
+        vm.h 
+        vm.c)
